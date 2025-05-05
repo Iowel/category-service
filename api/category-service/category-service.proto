@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package categoryservice;
+
+// import "google/api/annotations.proto";
+
+option go_package = "github.com/Iowel/category-service/pkg/category-service;category_service";
+
+
+
+service CategoryService {
+    rpc GetCategoryById (GetCategoryByIdRequest) returns (GetCategoryByIdResponse);
+}
+
+message Category {
+    uint64 id = 1;
+    string name = 2;
+}
+
+
+message GetCategoryByIdRequest {
+    uint64 id = 1;
+
+}
+
+message GetCategoryByIdResponse {
+    Category category = 1;
+}
+
+// service CategoryService {
+//     rpc GetCategoryById (GetCategoryRequest) returns (GetCategoryResponse) {
+//         option (google.api.http) = {
+//             post: "/v1/sample"
+//             body: "*"
+//         };
+//     }
+// }
