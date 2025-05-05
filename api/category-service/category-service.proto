@@ -4,7 +4,7 @@ package categoryservice;
 
 // import "google/api/annotations.proto";
 
-option go_package = "github.com/Iowel/category-service/pkg/category-service;category_service";
+option go_package = "github.com/Iowel/category-service/pkg/api/category-service;category_service";
 
 
 

@@ -174,7 +174,7 @@ const file_api_category_service_category_service_proto_rawDesc = "" +
 	"\x17GetCategoryByIdResponse\x125\n" +
 	"\bcategory\x18\x01 \x01(\v2\x19.categoryservice.CategoryR\bcategory2w\n" +
 	"\x0fCategoryService\x12d\n" +
-	"\x0fGetCategoryById\x12'.categoryservice.GetCategoryByIdRequest\x1a(.categoryservice.GetCategoryByIdResponseBIZGgithub.com/Iowel/category-service/pkg/category-service;category_serviceb\x06proto3"
+	"\x0fGetCategoryById\x12'.categoryservice.GetCategoryByIdRequest\x1a(.categoryservice.GetCategoryByIdResponseBMZKgithub.com/Iowel/category-service/pkg/api/category-service;category_serviceb\x06proto3"
 
 var (
 	file_api_category_service_category_service_proto_rawDescOnce sync.Once
