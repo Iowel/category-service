@@ -7,7 +7,7 @@ GRPC_METHOD="categoryservice.CategoryService/GetCategoryById"
 payload=$(
     cat <<EOF
 {
-    "id": 1
+    "id": 3
 }
 EOF
 )
